@@ -1,0 +1,1528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component snapshot 1`] = `
+<div
+  className="topContainer"
+>
+  <div
+    className="container-fluid  p-4 bg-dark text-white"
+  >
+    <a
+      className=" m-2 p-2 text-white"
+      href="/"
+      onClick={[Function]}
+    >
+      Customers
+    </a>
+    <a
+      className=" m-2 p-2 text-white"
+      href="/ordersTotalPriceVsDate"
+      onClick={[Function]}
+    >
+      Order's Total Price Vs Date
+    </a>
+    <a
+      className=" m-2 p-2 text-white"
+      href="/ordersCountVsDate"
+      onClick={[Function]}
+    >
+      Order's Count Vs Date
+    </a>
+  </div>
+  <div
+    className="container my-4"
+  >
+    <h1
+      className="text-center my-4"
+    >
+      Customers
+    </h1>
+    <table
+      className="table table-striped  table-responsive"
+    >
+      <thead
+        className="thead-dark"
+      >
+        <tr>
+          <th
+            scope="col"
+          >
+            Sr. No.
+          </th>
+          <th
+            scope="col"
+          >
+            ID
+          </th>
+          <th
+            scope="col"
+          >
+            First Name
+          </th>
+          <th
+            scope="col"
+          >
+            Last Name
+          </th>
+          <th
+            scope="col"
+          >
+            Email
+          </th>
+          <th
+            scope="col"
+          >
+            Created_at
+          </th>
+          <th
+            scope="col"
+          >
+            Orders
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>
+            1
+             
+          </th>
+          <th>
+            0b62a22a-51b5-4594-921a-e25a12ece0b8
+             
+          </th>
+          <th>
+            Dion
+             
+          </th>
+          <th>
+            Donnelly
+             
+          </th>
+          <th>
+            Carmella_Willms@gmail.com
+             
+          </th>
+          <th>
+            2020-04-23T21:35:28.635Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            2
+             
+          </th>
+          <th>
+            0fcbff30-5e8d-4ffb-949e-c7f1301c71e1
+             
+          </th>
+          <th>
+            Diego
+             
+          </th>
+          <th>
+            Hahn
+             
+          </th>
+          <th>
+            Fatima_Larson@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-02T04:50:54.591Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            3
+             
+          </th>
+          <th>
+            621777e6-e862-474b-a2db-5812d848cedc
+             
+          </th>
+          <th>
+            Reinhold
+             
+          </th>
+          <th>
+            Ondricka
+             
+          </th>
+          <th>
+            Gus17@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-04T03:29:24.579Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            4
+             
+          </th>
+          <th>
+            2b6bb67e-fb90-4eb6-af7b-e85945fe40ad
+             
+          </th>
+          <th>
+            Mary
+             
+          </th>
+          <th>
+            Bernhard
+             
+          </th>
+          <th>
+            Layne67@gmail.com
+             
+          </th>
+          <th>
+            2020-04-26T05:05:10.164Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            5
+             
+          </th>
+          <th>
+            6c51fb63-eae9-4b72-b365-7db31612a543
+             
+          </th>
+          <th>
+            Napoleon
+             
+          </th>
+          <th>
+            Beahan
+             
+          </th>
+          <th>
+            Nia.Streich17@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-09T01:39:29.883Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            6
+             
+          </th>
+          <th>
+            72598b8a-33ab-48ce-8539-f4e2d3fd7ae5
+             
+          </th>
+          <th>
+            Joseph
+             
+          </th>
+          <th>
+            Jacobs
+             
+          </th>
+          <th>
+            Rozella22@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-22T22:43:24.254Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            7
+             
+          </th>
+          <th>
+            eea3a83f-99c7-4434-b3f5-e52679f1f682
+             
+          </th>
+          <th>
+            Chase
+             
+          </th>
+          <th>
+            Ryan
+             
+          </th>
+          <th>
+            Arden20@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-08T08:44:51.927Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            8
+             
+          </th>
+          <th>
+            07ae0e34-9dac-4c32-bf03-39f8e79f5f86
+             
+          </th>
+          <th>
+            Doyle
+             
+          </th>
+          <th>
+            Grant
+             
+          </th>
+          <th>
+            Ruthie_Glover30@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-26T10:47:51.802Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            9
+             
+          </th>
+          <th>
+            21419e19-48c6-420a-af0f-a501b5cbbef4
+             
+          </th>
+          <th>
+            Dolly
+             
+          </th>
+          <th>
+            Schmeler
+             
+          </th>
+          <th>
+            Lori.Roob4@gmail.com
+             
+          </th>
+          <th>
+            2020-04-14T04:10:23.744Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            10
+             
+          </th>
+          <th>
+            d046c38d-4b7c-463e-b941-80ac0d43084c
+             
+          </th>
+          <th>
+            Maritza
+             
+          </th>
+          <th>
+            Kunde
+             
+          </th>
+          <th>
+            Demetris_Tromp@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-20T20:27:36.295Z
+             
+          </th>
+          <th>
+            3
+             
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="d-flex justify-content-center "
+  >
+    <ul
+      className="pagination "
+    >
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          1
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          2
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          3
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          4
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          5
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          6
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          7
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          8
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          9
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          10
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Customers component snapshot 1`] = `
+Array [
+  <div
+    className="container my-4"
+  >
+    <h1
+      className="text-center my-4"
+    >
+      Customers
+    </h1>
+    <table
+      className="table table-striped  table-responsive"
+    >
+      <thead
+        className="thead-dark"
+      >
+        <tr>
+          <th
+            scope="col"
+          >
+            Sr. No.
+          </th>
+          <th
+            scope="col"
+          >
+            ID
+          </th>
+          <th
+            scope="col"
+          >
+            First Name
+          </th>
+          <th
+            scope="col"
+          >
+            Last Name
+          </th>
+          <th
+            scope="col"
+          >
+            Email
+          </th>
+          <th
+            scope="col"
+          >
+            Created_at
+          </th>
+          <th
+            scope="col"
+          >
+            Orders
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>
+            1
+             
+          </th>
+          <th>
+            0b62a22a-51b5-4594-921a-e25a12ece0b8
+             
+          </th>
+          <th>
+            Dion
+             
+          </th>
+          <th>
+            Donnelly
+             
+          </th>
+          <th>
+            Carmella_Willms@gmail.com
+             
+          </th>
+          <th>
+            2020-04-23T21:35:28.635Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            2
+             
+          </th>
+          <th>
+            0fcbff30-5e8d-4ffb-949e-c7f1301c71e1
+             
+          </th>
+          <th>
+            Diego
+             
+          </th>
+          <th>
+            Hahn
+             
+          </th>
+          <th>
+            Fatima_Larson@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-02T04:50:54.591Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            3
+             
+          </th>
+          <th>
+            621777e6-e862-474b-a2db-5812d848cedc
+             
+          </th>
+          <th>
+            Reinhold
+             
+          </th>
+          <th>
+            Ondricka
+             
+          </th>
+          <th>
+            Gus17@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-04T03:29:24.579Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            4
+             
+          </th>
+          <th>
+            2b6bb67e-fb90-4eb6-af7b-e85945fe40ad
+             
+          </th>
+          <th>
+            Mary
+             
+          </th>
+          <th>
+            Bernhard
+             
+          </th>
+          <th>
+            Layne67@gmail.com
+             
+          </th>
+          <th>
+            2020-04-26T05:05:10.164Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            5
+             
+          </th>
+          <th>
+            6c51fb63-eae9-4b72-b365-7db31612a543
+             
+          </th>
+          <th>
+            Napoleon
+             
+          </th>
+          <th>
+            Beahan
+             
+          </th>
+          <th>
+            Nia.Streich17@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-09T01:39:29.883Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            6
+             
+          </th>
+          <th>
+            72598b8a-33ab-48ce-8539-f4e2d3fd7ae5
+             
+          </th>
+          <th>
+            Joseph
+             
+          </th>
+          <th>
+            Jacobs
+             
+          </th>
+          <th>
+            Rozella22@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-22T22:43:24.254Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            7
+             
+          </th>
+          <th>
+            eea3a83f-99c7-4434-b3f5-e52679f1f682
+             
+          </th>
+          <th>
+            Chase
+             
+          </th>
+          <th>
+            Ryan
+             
+          </th>
+          <th>
+            Arden20@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-08T08:44:51.927Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            8
+             
+          </th>
+          <th>
+            07ae0e34-9dac-4c32-bf03-39f8e79f5f86
+             
+          </th>
+          <th>
+            Doyle
+             
+          </th>
+          <th>
+            Grant
+             
+          </th>
+          <th>
+            Ruthie_Glover30@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-26T10:47:51.802Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            9
+             
+          </th>
+          <th>
+            21419e19-48c6-420a-af0f-a501b5cbbef4
+             
+          </th>
+          <th>
+            Dolly
+             
+          </th>
+          <th>
+            Schmeler
+             
+          </th>
+          <th>
+            Lori.Roob4@gmail.com
+             
+          </th>
+          <th>
+            2020-04-14T04:10:23.744Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            10
+             
+          </th>
+          <th>
+            d046c38d-4b7c-463e-b941-80ac0d43084c
+             
+          </th>
+          <th>
+            Maritza
+             
+          </th>
+          <th>
+            Kunde
+             
+          </th>
+          <th>
+            Demetris_Tromp@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-20T20:27:36.295Z
+             
+          </th>
+          <th>
+            3
+             
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  <div
+    className="d-flex justify-content-center "
+  >
+    <ul
+      className="pagination "
+    >
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          1
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          2
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          3
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          4
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          5
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          6
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          7
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          8
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          9
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          10
+        </button>
+      </li>
+    </ul>
+  </div>,
+]
+`;
+
+exports[`CustomersTable component snapshot 1`] = `
+<div
+  className="container my-4"
+>
+  <h1
+    className="text-center my-4"
+  >
+    Customers
+  </h1>
+  <table
+    className="table table-striped  table-responsive"
+  >
+    <thead
+      className="thead-dark"
+    >
+      <tr>
+        <th
+          scope="col"
+        >
+          Sr. No.
+        </th>
+        <th
+          scope="col"
+        >
+          ID
+        </th>
+        <th
+          scope="col"
+        >
+          First Name
+        </th>
+        <th
+          scope="col"
+        >
+          Last Name
+        </th>
+        <th
+          scope="col"
+        >
+          Email
+        </th>
+        <th
+          scope="col"
+        >
+          Created_at
+        </th>
+        <th
+          scope="col"
+        >
+          Orders
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
+
+exports[`Pagination component snapshot 1`] = `
+<div
+  className="d-flex justify-content-center "
+>
+  <ul
+    className="pagination "
+  />
+</div>
+`;
+
+exports[`Routes component snapshot 1`] = `
+Array [
+  <div
+    className="container-fluid  p-4 bg-dark text-white"
+  >
+    <a
+      className=" m-2 p-2 text-white"
+      href="/"
+      onClick={[Function]}
+    >
+      Customers
+    </a>
+    <a
+      className=" m-2 p-2 text-white"
+      href="/ordersTotalPriceVsDate"
+      onClick={[Function]}
+    >
+      Order's Total Price Vs Date
+    </a>
+    <a
+      className=" m-2 p-2 text-white"
+      href="/ordersCountVsDate"
+      onClick={[Function]}
+    >
+      Order's Count Vs Date
+    </a>
+  </div>,
+  <div
+    className="container my-4"
+  >
+    <h1
+      className="text-center my-4"
+    >
+      Customers
+    </h1>
+    <table
+      className="table table-striped  table-responsive"
+    >
+      <thead
+        className="thead-dark"
+      >
+        <tr>
+          <th
+            scope="col"
+          >
+            Sr. No.
+          </th>
+          <th
+            scope="col"
+          >
+            ID
+          </th>
+          <th
+            scope="col"
+          >
+            First Name
+          </th>
+          <th
+            scope="col"
+          >
+            Last Name
+          </th>
+          <th
+            scope="col"
+          >
+            Email
+          </th>
+          <th
+            scope="col"
+          >
+            Created_at
+          </th>
+          <th
+            scope="col"
+          >
+            Orders
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>
+            1
+             
+          </th>
+          <th>
+            0b62a22a-51b5-4594-921a-e25a12ece0b8
+             
+          </th>
+          <th>
+            Dion
+             
+          </th>
+          <th>
+            Donnelly
+             
+          </th>
+          <th>
+            Carmella_Willms@gmail.com
+             
+          </th>
+          <th>
+            2020-04-23T21:35:28.635Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            2
+             
+          </th>
+          <th>
+            0fcbff30-5e8d-4ffb-949e-c7f1301c71e1
+             
+          </th>
+          <th>
+            Diego
+             
+          </th>
+          <th>
+            Hahn
+             
+          </th>
+          <th>
+            Fatima_Larson@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-02T04:50:54.591Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            3
+             
+          </th>
+          <th>
+            621777e6-e862-474b-a2db-5812d848cedc
+             
+          </th>
+          <th>
+            Reinhold
+             
+          </th>
+          <th>
+            Ondricka
+             
+          </th>
+          <th>
+            Gus17@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-04T03:29:24.579Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            4
+             
+          </th>
+          <th>
+            2b6bb67e-fb90-4eb6-af7b-e85945fe40ad
+             
+          </th>
+          <th>
+            Mary
+             
+          </th>
+          <th>
+            Bernhard
+             
+          </th>
+          <th>
+            Layne67@gmail.com
+             
+          </th>
+          <th>
+            2020-04-26T05:05:10.164Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            5
+             
+          </th>
+          <th>
+            6c51fb63-eae9-4b72-b365-7db31612a543
+             
+          </th>
+          <th>
+            Napoleon
+             
+          </th>
+          <th>
+            Beahan
+             
+          </th>
+          <th>
+            Nia.Streich17@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-09T01:39:29.883Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            6
+             
+          </th>
+          <th>
+            72598b8a-33ab-48ce-8539-f4e2d3fd7ae5
+             
+          </th>
+          <th>
+            Joseph
+             
+          </th>
+          <th>
+            Jacobs
+             
+          </th>
+          <th>
+            Rozella22@yahoo.com
+             
+          </th>
+          <th>
+            2020-04-22T22:43:24.254Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            7
+             
+          </th>
+          <th>
+            eea3a83f-99c7-4434-b3f5-e52679f1f682
+             
+          </th>
+          <th>
+            Chase
+             
+          </th>
+          <th>
+            Ryan
+             
+          </th>
+          <th>
+            Arden20@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-08T08:44:51.927Z
+             
+          </th>
+          <th>
+            0
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            8
+             
+          </th>
+          <th>
+            07ae0e34-9dac-4c32-bf03-39f8e79f5f86
+             
+          </th>
+          <th>
+            Doyle
+             
+          </th>
+          <th>
+            Grant
+             
+          </th>
+          <th>
+            Ruthie_Glover30@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-26T10:47:51.802Z
+             
+          </th>
+          <th>
+            1
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            9
+             
+          </th>
+          <th>
+            21419e19-48c6-420a-af0f-a501b5cbbef4
+             
+          </th>
+          <th>
+            Dolly
+             
+          </th>
+          <th>
+            Schmeler
+             
+          </th>
+          <th>
+            Lori.Roob4@gmail.com
+             
+          </th>
+          <th>
+            2020-04-14T04:10:23.744Z
+             
+          </th>
+          <th>
+            2
+             
+          </th>
+        </tr>
+        <tr>
+          <th>
+            10
+             
+          </th>
+          <th>
+            d046c38d-4b7c-463e-b941-80ac0d43084c
+             
+          </th>
+          <th>
+            Maritza
+             
+          </th>
+          <th>
+            Kunde
+             
+          </th>
+          <th>
+            Demetris_Tromp@hotmail.com
+             
+          </th>
+          <th>
+            2020-04-20T20:27:36.295Z
+             
+          </th>
+          <th>
+            3
+             
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  <div
+    className="d-flex justify-content-center "
+  >
+    <ul
+      className="pagination "
+    >
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          1
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          2
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          3
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          4
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          5
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          6
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          7
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          8
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          9
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          10
+        </button>
+      </li>
+    </ul>
+  </div>,
+]
+`;
