@@ -3,6 +3,7 @@ import {Link, Route, Switch, BrowserRouter} from 'react-router-dom'
 import Customers from '../Component/Customers'
 import OrdersTotalPriceVsDate from '../Component/OrdersTotalPriceVsDate'
 import OrdersCountVsDate from '../Component/OrdersCountVsDate'
+import ErrorPage from '../Component/ErrorPage'
 
 function Routes() {
     return (
@@ -16,6 +17,7 @@ function Routes() {
                 <Route exact path = "/" component = {Customers} />
                 <Route path = "/ordersTotalPriceVsDate" component = {OrdersTotalPriceVsDate} />
                 <Route path = "/ordersCountVsDate" component = {OrdersCountVsDate} />
+                <Route component = {ErrorPage} />
             </Switch>
         </BrowserRouter>
     )
