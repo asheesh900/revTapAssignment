@@ -26,15 +26,17 @@ function OrdersTotalPriceVsDate() {
 
     // extracting date in readable format
 
-    ordersCopy1 = ordersCopy1.map(ele => {
-        ele["created"] = ele["created"].split("T");
-        return ele
-    })
+    if(ordersCopy1) {
+        ordersCopy1 = ordersCopy1.map(ele => {
+            ele["created"] = ele["created"].split("T");
+            return ele
+        })
+    }
 
     // key, value pair to get the cost of orders per day
 
     let priceVsDateObj = {};
-    for(let i=0; i<ordersCopy1.length; i++) {
+    for(let i=0; ordersCopy1 && i<ordersCopy1.length; i++) {
         if(ordersCopy1[i]["created"][0] in priceVsDateObj) {
             priceVsDateObj[ordersCopy1[i]["created"][0]] += Number(ordersCopy1[i]["price"]);
         
@@ -50,7 +52,9 @@ function OrdersTotalPriceVsDate() {
 
     return (
         <div>
-            <LineGraph totalPricePerDay = {totalPricePerDay} date = {date} />
+            {
+                totalPricePerDay && date && <LineGraph totalPricePerDay = {totalPricePerDay} date = {date} />
+            }
         </div>
     )
 }

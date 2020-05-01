@@ -3,7 +3,8 @@ import {Bar} from 'react-chartjs-2';
 
 function BarGraph({ordersCount, date}) {
 
-    const data = {
+    if(ordersCount && date) {
+      var data = {
         labels: date,
         datasets: [
           {
@@ -18,10 +19,13 @@ function BarGraph({ordersCount, date}) {
         ]
       };
 
+    }
     return (
         <div className = "container my-4 text-center">
             <h2 className = "my-4">Orders' Count Vs Date</h2>
-            <Bar
+            {
+              data && 
+              <Bar
                 data={data}
                 width={50}
                 height={400}
@@ -29,6 +33,7 @@ function BarGraph({ordersCount, date}) {
                     maintainAspectRatio: false
                 }}
             />
+            }
         </div>
     )
 }

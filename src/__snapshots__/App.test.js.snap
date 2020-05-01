@@ -496,6 +496,18 @@ exports[`App component snapshot 1`] = `
 </div>
 `;
 
+exports[`BarGrapth component snapshot 1`] = `
+<div
+  className="container my-4 text-center"
+>
+  <h2
+    className="my-4"
+  >
+    Orders' Count Vs Date
+  </h2>
+</div>
+`;
+
 exports[`Customers component snapshot 1`] = `
 Array [
   <div
@@ -1022,6 +1034,22 @@ exports[`CustomersTable component snapshot 1`] = `
   </table>
 </div>
 `;
+
+exports[`LineGraph component snapshot 1`] = `
+<div
+  className="container text-center my-4"
+>
+  <h2
+    className="my-4"
+  >
+    Orders' Total Price Vs Date
+  </h2>
+</div>
+`;
+
+exports[`OrdersCountVsDate component snapshot 1`] = `<div />`;
+
+exports[`OrdersTotalPriceVsDate component snapshot 1`] = `<div />`;
 
 exports[`Pagination component snapshot 1`] = `
 <div

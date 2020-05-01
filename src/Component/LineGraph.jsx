@@ -3,7 +3,8 @@ import {Line} from 'react-chartjs-2';
 
 function LineGraph({totalPricePerDay, date}) {
 
-    const data = {
+    if(totalPricePerDay && date) {
+      var data = {
         labels: date,
         datasets: [
           {
@@ -29,10 +30,14 @@ function LineGraph({totalPricePerDay, date}) {
           }
         ]
       };
+    }
+    
     return (
         <div className = "container text-center my-4">
             <h2 className = "my-4">Orders' Total Price Vs Date</h2>
-            <Line data={data} />
+            {
+              data && <Line data={data} />
+            }
         </div>
     )
 }

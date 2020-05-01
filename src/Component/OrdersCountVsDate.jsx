@@ -34,7 +34,7 @@ function OredersCountVsDate() {
     // key, value pair to count number of orders per day
 
     let countVsDateObj = {};
-    for(let i=0; i<ordersCopy1.length; i++) {
+    for(let i=0; ordersCopy1 && i<ordersCopy1.length; i++) {
         if(ordersCopy1[i]["created"][0] in countVsDateObj) {
             countVsDateObj[ordersCopy1[i]["created"][0]] += 1;
         
@@ -49,10 +49,12 @@ function OredersCountVsDate() {
     let date = Object.keys(countVsDateObj);
 
     return (
-        <div>
-            <BarGraph ordersCount = {ordersCount} date = {date} />
-        </div>
-    )
+      <div>
+        {ordersCount && date && (
+          <BarGraph ordersCount={ordersCount} date={date} />
+        )}
+      </div>
+    );
 }
 
 export default OredersCountVsDate
