@@ -27,11 +27,6 @@ function BarGraph({ordersCount, date}) {
               data && 
               <Bar
                 data={data}
-                width={50}
-                height={400}
-                options={{
-                    maintainAspectRatio: false
-                }}
             />
             }
         </div>

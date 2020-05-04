@@ -49,7 +49,7 @@ function OredersCountVsDate() {
     let date = Object.keys(countVsDateObj);
 
     return (
-      <div>
+      <div id = "ordersTotalCount">
         {ordersCount && date && (
           <BarGraph ordersCount={ordersCount} date={date} />
         )}

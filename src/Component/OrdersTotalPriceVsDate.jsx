@@ -51,7 +51,7 @@ function OrdersTotalPriceVsDate() {
     let date = Object.keys(priceVsDateObj);
 
     return (
-        <div>
+        <div id = "ordersTotalPrice">
             {
                 totalPricePerDay && date && <LineGraph totalPricePerDay = {totalPricePerDay} date = {date} />
             }

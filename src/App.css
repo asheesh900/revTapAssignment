@@ -1,6 +1,25 @@
+body {
+    position: relative; 
+}
+
 .topContainer {
     width: 100%;
     min-height: 100vh;
     background-color: #dbf2ff;
     background-size: cover;
+}
+
+#customerTable {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#ordersTotalPrice {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#ordersTotalCount {
+    margin-top: 70px;
+    padding-bottom: 70px;
 }

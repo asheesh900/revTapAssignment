@@ -21,14 +21,15 @@ function Customers() {
         setCurrentPage(pageNumber);
     }
     return (
-      <>
+      <div id = "customerTable">
         <CustomersTable customers={currentItems} />
         <Pagination
           itemsPerPage={itemsPerPage}
           totalItems={customers.length}
           paginate={paginate}
         />
-      </>
+
+      </div>
     );
 }
 
